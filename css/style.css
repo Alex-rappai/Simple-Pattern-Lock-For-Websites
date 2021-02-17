@@ -1,0 +1,43 @@
+*,html,body
+{
+    margin:0;
+    padding:0;
+}
+
+ header
+{
+     background-color: darkturquoise;
+     height:100px;
+     line-height:100px;
+}
+ul
+{
+  list-style:none;
+}
+ ul li
+{
+    display:inline-block;
+}
+ header nav
+{
+     float:right;
+}
+ 
+.logo img
+{
+  margin-top:5px;
+  float:right;
+}
+
+header nav ul li a
+{
+  padding-right:30px;
+  font-weight:bold;
+  color:white;
+}
+
+header nav ul li a:hover
+{
+   text-decoration:none;
+   color:red;
+  }
